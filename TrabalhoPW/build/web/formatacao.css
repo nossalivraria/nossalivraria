@@ -1,0 +1,153 @@
+/* Veja explicação para este codigo no endereço
+   http://www.tableless.com.br/criando-um-menu-horizontal-com-css
+*/
+
+body{
+    background-color:#EDEDED;
+}
+
+#menuh ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menuh ul li { 
+    display:inline;
+
+}
+
+#menuh ul li a {
+    padding: 2px 10px;
+    float:left;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menuh ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#menuv ul {
+    padding:5px;
+    margin:5px;
+    background-color:#EDEDED;
+    list-style:none;
+    height: 100%;
+}
+
+#menuv ul li {
+    display: block;
+    padding:10px;
+    margin:3px;
+    width: 140px;
+}
+
+#menuv ul li a {
+    width: 140px;
+    padding: 10px 10px;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menuv ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#busca {
+    float: right;
+}
+html, body {
+    height: 100%;
+}
+
+#topo {
+    position: relative;
+    min-height: 100%;
+}
+
+* html #topo {
+    height: 100%;
+}
+
+.selecionado{
+    font-weight: bold;
+}
+
+#conteudo {
+    padding-bottom: 50px;
+}
+
+#cabecalho {
+    padding-bottom: 50px;
+    border-bottom: 2px solid blue;
+}
+
+#rodape {
+    position: relative;
+    margin-top: -90px;
+    height: 60px;
+    border-top: 2px solid blue;
+}
+
+#texto {
+    float: inherit;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#tituloMaior {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#titulo{
+    font-weight: bold;
+}
+
+div.texto2 {
+    width:100%;
+    position:absolute;
+    top:3px;
+    left:-3px;
+    color:#FF0000;
+    font: 25px "arial black", Impact, sans-serif;
+}
+
+div.sombra21  {
+    width:100%;
+    position:absolute;
+    top:3px;
+    left:-3px;
+    color:#B5B5B5;
+    font: 25px "arial black", Impact, sans-serif;
+}
+
+div.sombra22  {
+    position:relative;
+    color:#DCDCDC;
+    font: 25px "arial black", Impact, sans-serif;
+}
+
+#endereço blockquote {
+    border-left:#009900 5px double;
+    background:#f0fff0;
+    color:#006600;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
